@@ -4,98 +4,87 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 <html>
 <body class="containerbox"onLoad="reset(); return true;">
- 
 <center>
-<h2 class="head1">Hanging with Bruce at Delta Tau Chi</h2>
+<h1 class="head1">Hanging with Bluto at Delta House</h1>
 <div class="container ">
-<div class="container containerbox">
+	<div class="container containerbox">
+		<div class="row">
+			<div class="col-xs-9 col-sm-5 box ">
+			   	<br /> <br />
+		     	 <img class="img" name="bluto" id="bluto" src="#">
+				<br />	<br />
+				<p>Welcome to my Animal House Hangman Game.</p>
+				<p>	This is a based on names of characters in the classic 1978 film which to this day is one of my 
+				all time favorites.</p>
+				<p> Some of the characters are Bluto, Dean Wormer, Flounder, Otter, Dday, Marmalard and Needermyer.
+				</p>
+				<p>Enjoy the Game</p>
+				<br /><br /><br />
+			</div>
 
-<div class="row">
-     <div > 
-     	<img name="bruce" id="bruce" class="col-xs-9 col-sm-5 box2 img" src="#" alt="Stickman">
-   	</div>
-     	<div class="col-xs-9 col-sm-6 box2">
-		<form name="game">
-			<p>
-				Display Word:
-				<br />
-				<input class="text1" type="text" name="displayWord" disabled />
-				<br />
-				Used Letters:
-				<br />
-				<input class="text1" type="text" name="usedLetters" disabled />
-				<br />
+
+			 <div class="col-xs-9 col-sm-6 box">
+				<form name="game">
+					<p class="p">
+						<br />
+						Display Word<br />
+						<input class="text1" type="text" name="displayWord" disabled /><br />
+						Used Letters<br />
+						<input class="text1" type="text" name="usedLetters" disabled /><br />
+						Guesses Remaining<br />
+						<input class="text-centerx text1" type="text" name="remainLetters" disabled /><br />
+						Games Won<br />
+						<input class="text-centerx text1" type="text" name="gamesWon" disabled /><br />
+						Games Lost<br />
+						<input class="text-centerx text1" type="text" name="gamesLost" disabled /><br /><br />
+					</p>	
+				</form>
+				<hr class="hr1">
 				
-				Guesses Remaining:
-				<br /><input class="text-centerx text1" type="text" name="remainLetters" disabled />
-				<br />
-				Games Won :
-				<br /><input class="text-centerx text1" type="text" name="gamesWon" disabled />
-				<br />
-				Games Lost :
-				<br /><input class="text-centerx text1" type="text" name="gamesLost" disabled />
-			</p>
-		</form>
-</div>
-</div>
-<div class="row">
-		<div class="col-xs-9 col-sm-6 box2">
-			<p>
-				Welcome to my Bruce Hangman Game - win 5 times and see what happens next</p>
-			<p>	This is a based on first names of current band members plus 2 of the original members one known as the Big Man and the other was a keyboard player. Good Luck.
-			</p>
-			<a href="https://en.wikipedia.org/wiki/E_Street_Band"> Click here for further info</a>
+						<label class="label">Choose a Letter</label>
+						<br/>
+						<input type="button" class="button" value="Q" onclick="selectLetter('Q')">
+						<input type="button" class="button" value="W" onclick="selectLetter('W')">
+						<input type="button" class="button" value="E" onclick="selectLetter('E')">
+						<input type="button" class="button" value="R" onclick="selectLetter('R')">
+						<input type="button" class="button" value="T" onclick="selectLetter('T')">
+						<input type="button" class="button" value="Y" onclick="selectLetter('Y')">
+						<input type="button" class="button" value="U" onclick="selectLetter('U')">
+						<input type="button" class="button" value="I" onclick="selectLetter('I')">
+						<input type="button" class="button" value="O" onclick="selectLetter('O')">
+						<input type="button" class="button" value="P" onclick="selectLetter('P')">
+						<br /><br />
+
+						<input type="button" class="button" value="A" onclick="selectLetter('A')">
+						<input type="button" class="button" value="S" onclick="selectLetter('S')">
+						<input type="button" class="button" value="D" onclick="selectLetter('D')">
+						<input type="button" class="button" value="F" onclick="selectLetter('F')">
+						<input type="button" class="button" value="G" onclick="selectLetter('G')">
+						<input type="button" class="button" value="H" onclick="selectLetter('H')">
+						<input type="button" class="button" value="J" onclick="selectLetter('J')">
+						<input type="button" class="button" value="K" onclick="selectLetter('K')">
+						<input type="button" class="button" value="L" onclick="selectLetter('L')">
+						<br /><br />
+
+						<input type="button" class="button" value="Z" onclick="selectLetter('Z')">
+						<input type="button" class="button" value="X" onclick="selectLetter('X')">
+						<input type="button" class="button" value="C" onclick="selectLetter('C')">
+						<input type="button" class="button" value="V" onclick="selectLetter('V')">
+						<input type="button" class="button" value="B" onclick="selectLetter('B')">
+						<input type="button" class="button" value="N" onclick="selectLetter('N')">
+						<input type="button" class="button" value="M" onclick="selectLetter('M')">
+						<br /><br />
+			</div>
 		</div>
-		<div class="col-xs-9 col-sm-5 box2">
-			<p>
- 
-<label class="label">Choose a letter:</label>
-<br /></br>
-
-<input type="button" class="button" value="Q" onclick="selectLetter('Q')">
-<input type="button" class="button" value="W" onclick="selectLetter('W')">
-<input type="button" class="button" value="E" onclick="selectLetter('E')">
-<input type="button" class="button" value="R" onclick="selectLetter('R')">
-<input type="button" class="button" value="T" onclick="selectLetter('T')">
-<input type="button" class="button" value="Y" onclick="selectLetter('Y')">
-<input type="button" class="button" value="U" onclick="selectLetter('U')">
-<input type="button" class="button" value="I" onclick="selectLetter('I')">
-<input type="button" class="button" value="O" onclick="selectLetter('O')">
-<input type="button" class="button" value="P" onclick="selectLetter('P)">
-<br /><br />
-
-<input type="button" class="button" value="A" onclick="selectLetter('A')">
-<input type="button" class="button" value="S" onclick="selectLetter('S')">
-<input type="button" class="button" value="D" onclick="selectLetter('D')">
-<input type="button" class="button" value="F" onclick="selectLetter('F')">
-<input type="button" class="button" value="G" onclick="selectLetter('G')">
-<input type="button" class="button" value="H" onclick="selectLetter('H')">
-<input type="button" class="button" value="J" onclick="selectLetter('J')">
-<input type="button" class="button" value="K" onclick="selectLetter('K')">
-<input type="button" class="button" value="L" onclick="selectLetter('L')">
-<br /><br />
-
-<input type="button" class="button" value="Z" onclick="selectLetter('Z')">
-<input type="button" class="button" value="X" onclick="selectLetter('X')">
-<input type="button" class="button" value="C" onclick="selectLetter('C')">
-<input type="button" class="button" value="V" onclick="selectLetter('V')">
-<input type="button" class="button" value="B" onclick="selectLetter('B')">
-<input type="button" class="button" value="N" onclick="selectLetter('N')">
-<input type="button" class="button" value="M" onclick="selectLetter('M')">
-</p></br>
-<!--  
-<p>
-<a href="javascript:reset()"><input type="button" style="cursor:pointer; margin-left: 10px; font-size:18px;" value="Start game / Reset game"></a>
-</p> -->
+	</div>
+</div>
+ <footer class="footer">
+@ Copyright David W Thurman GW Coding BootCamp 2017/2018
+</footer>
 </center>
-</div>
-</div>
-</div>
-</div>
-
  <script type="text/javascript" src="assets/js/javascript.js"></script>
 </body>
