@@ -81,7 +81,7 @@ else
 			{
 				games_lost +=1;
 // set random image message and sound on Loss 
-				random_number = Math.round(Math.random() * (loserObject.imageWrg.length - 1));
+				random_number = Math.floor(Math.random() * (loserObject.imageWrg.length));
 				document.bluto.src="assets/images/" + loserObject.imageWrg[random_number];
 				var audio = new Audio("assets/sounds/" + loserObject.loserSound[random_number]);
 				audio.play(); 
@@ -112,7 +112,7 @@ function reset(){
 
 function selectWord()
 {
-	random_number = Math.round(Math.random() * winnerObject.words.length - 1);
+	random_number = Math.floor(Math.random() * winnerObject.words.length);
 	to_guess = winnerObject.words[random_number];
 // display masked word
 	masked_word = this.createMask(to_guess);
