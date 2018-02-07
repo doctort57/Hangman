@@ -9,6 +9,15 @@ Using arrays for characters, winning and losing sounds and images
 Please check out the deployed version in Heroku [here](https://animalhouse.herokuapp.com/)!
 
 ## Functionality
+Choose a letter if found will show in display word and letters used, letter can only be chosen once
+
+guesses remaining will be updated
+
+if you are a winner, play sound message box winner text and show winner image 
+
+if you are a loser, play sound message box loser text and show loser image
+
+Update Games Won/Lost totals
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/26799439/35922051-7da32d0e-0bea-11e8-984a-acacc9f4ec08.png)
