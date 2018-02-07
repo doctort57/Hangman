@@ -1,11 +1,8 @@
-# Animal House Hangman Game
-
-## Overview
+# Animal House Hangman Game # TOGA TOGA TOGA
 
 A twist on the traditional game celebrating my favorite movie of all time using javascript and bootstrap framework
 Using arrays for characters, winning and losing sounds and images
 
-# TOGA TOGA TOGA
 Please check out the deployed version in Heroku [here](https://animalhouse.herokuapp.com/)!
 
 ## Functionality
@@ -13,9 +10,8 @@ Choose a letter if found will show in display word and letters used, letter can 
 
 guesses remaining will be updated
 
-if you are a winner, play sound message box winner text and show winner image 
-
-if you are a loser, play sound message box loser text and show loser image
+If you are a winner, play winner sound message box winner text and show winner image 
+If you are a loser, play loser sound message box loser text and show loser image
 
 Update Games Won/Lost totals
 
