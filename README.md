@@ -4,6 +4,8 @@
 
 A twist on the traditional game celebrating my favorite movie of all time using javascript and bootstrap framework
 
+# TOGA TOGA TOGA
+
 
 Please check out the deployed version in Heroku [here](https://animalhouse.herokuapp.com/)!
 
@@ -19,6 +21,6 @@ Using arrays for characters, winning and losing sounds and images
 
 also uses bootstrap framework 
 
-TOGA TOGA TOGA
+
 
 # Screenshots
