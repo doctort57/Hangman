@@ -1,5 +1,9 @@
-An Animal House Hangman game celebrating the best movie ever using javascript
+ANIMAL HOUSE HANGMAN GAME
 
-Using arrays for characters, winning and losing sounds
+A twist on the traditional game celebrating my favorite movie of all time
+
+Using arrays for characters, winning and losing sounds and images
 
 also uses bootstrap framework 
+
+TOGA TOGA TOGA
