@@ -25,3 +25,8 @@ also uses bootstrap framework
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/26799439/35922051-7da32d0e-0bea-11e8-984a-acacc9f4ec08.png)
+![image](https://user-images.githubusercontent.com/26799439/35922085-9e4923a6-0bea-11e8-8cb1-f86e93259105.png)
+![image](https://user-images.githubusercontent.com/26799439/35922126-bd638006-0bea-11e8-8daf-449fdd44dbad.png)
+
+![image](https://user-images.githubusercontent.com/26799439/35922136-c9933d76-0bea-11e8-93af-b0c1a596484b.png)
+
