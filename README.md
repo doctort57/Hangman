@@ -1,5 +1,5 @@
 # Animal House Hangman Game 
-# TOGA TOGA TOGA
+## TOGA TOGA TOGA
 
 A twist on the traditional game celebrating my favorite movie of all time using javascript and bootstrap framework
 Using arrays for characters, winning and losing sounds and images
