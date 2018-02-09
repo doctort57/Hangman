@@ -3,7 +3,6 @@
 TOGA TOGA TOGA
 
 A twist on the traditional game celebrating my favorite movie of all time using javascript and bootstrap framework
-Using arrays for characters, winning and losing sounds and images
 
 Please check out the deployed version in Heroku [here](https://animalhouse.herokuapp.com/)!
 
@@ -22,9 +21,7 @@ Update Games Won/Lost totals
 
 [Letters](https://user-images.githubusercontent.com/26799439/35922085-9e4923a6-0bea-11e8-8cb1-f86e93259105.png)
 
-[Winner](https://user-images.githubusercontent.com/26799439/35922126-bd638006-0bea-11e8-8daf-449fdd44dbad.png)
+[Winner](https://user-images.githubusercontent.com/26799439/35922136-c9933d76-0bea-11e8-93af-b0c1a596484b.png)
 
-[Loser](https://user-images.githubusercontent.com/26799439/35922136-c9933d76-0bea-11e8-93af-b0c1a596484b.png)
-
-![image](https://user-images.githubusercontent.com/26799439/35922204-f7c9f482-0bea-11e8-9a1e-1c7d5c62f1a6.png)
+[Loser](https://user-images.githubusercontent.com/26799439/35922204-f7c9f482-0bea-11e8-9a1e-1c7d5c62f1a6.png)
 
