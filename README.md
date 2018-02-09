@@ -18,7 +18,7 @@ If you are a loser, play loser sound message box loser text and show loser image
 Update Games Won/Lost totals
 
 # Screenshots
-![image](https://user-images.githubusercontent.com/26799439/35922051-7da32d0e-0bea-11e8-984a-acacc9f4ec08.png)
+[Start](https://user-images.githubusercontent.com/26799439/35922051-7da32d0e-0bea-11e8-984a-acacc9f4ec08.png)
 
 ![image](https://user-images.githubusercontent.com/26799439/35922085-9e4923a6-0bea-11e8-8cb1-f86e93259105.png)
 
